@@ -1,0 +1,33 @@
+/*for parallax to work properly you need to set height as 100% of body and html*/
+html{
+    height: 100%; 
+}
+body {
+    height: 100%; 
+}
+.parallax_one {
+    /* The image used */
+    background-image: url('../images/me_on_left.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_two {
+    /* The image used */
+    background-image: url('../images/me_on_right.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
