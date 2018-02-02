@@ -31,3 +31,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.helloText {
+    font-size: 2em;
+    right: 15%;
+    position: fixed;
+    top: 5%;
+    border: 10px solid black;
+    height: 20%;
+    width: 20%;
+}
