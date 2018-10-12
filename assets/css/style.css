@@ -5,39 +5,67 @@ html{
 body {
     height: 100%; 
 }
-.parallax_one {
-    /* The image used */
-    background-image: url('../images/me_on_left.jpg');
 
-    /* Full height */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        display: none;
+    }
+    .responsive_img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-device-width: 1367px) {
+    .responsive_img {
+        display: none;
+    }
+}
+
+.parallax {
     height: 100%; 
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax_one {
+    /* The image used */
+    background-image: url('../images/me_on_left.jpg');
 }
 .parallax_two {
     /* The image used */
     background-image: url('../images/me_on_right.jpg');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.helloText {
-    font-size: 2em;
-    right: 15%;
-    position: fixed;
-    top: 5%;
-    border: 10px solid black;
-    height: 20%;
+.textCenter {
+    text-align: center;
+}
+
+.height-100{
+    height: 100px;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.lineheight-100{
+    line-height: 100px;
+}
+
+#socialIconsContainer i{
+    margin-right: 1%;
+}
+
+.myCartoonisedImage{
+    display: block;
     width: 20%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.margin-top-20{
+    margin-top: 20px;
 }
