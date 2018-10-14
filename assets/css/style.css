@@ -69,3 +69,7 @@ body {
 .margin-top-20{
     margin-top: 20px;
 }
+
+.socialIcon{
+    display: inline-block;
+}
