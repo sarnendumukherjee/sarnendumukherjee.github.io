@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     .setPin('#myCartoonisedImage',{pushFollowers: false})
     //.setPin('#myCartoonisedImage')
-    .addIndicators()
+    //.addIndicators()
     .addTo(controller);
 });
