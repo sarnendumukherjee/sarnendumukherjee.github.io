@@ -10,4 +10,14 @@ document.addEventListener('DOMContentLoaded', function(){
     //.setPin('#myCartoonisedImage')
     //.addIndicators()
     .addTo(controller);
+
+    var helloAnimation = TweenMax.from("#hello-container",2,{opacity:0,y:300, ease: Power3.easeOut})
+
+    var hiMessageScene = new ScrollMagic.Scene({
+        triggerElement: '#hello-section'
+    })
+    .setTween(helloAnimation)
+    //.addIndicators()
+    .addTo(controller);
+
 });
