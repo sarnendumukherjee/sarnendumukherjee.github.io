@@ -1,0 +1,21 @@
+<script lang="ts">
+  import type { ResumeData } from '../../app';
+  import { animateOnScroll } from '$lib/actions.js';
+
+  let { projects }: { projects: ResumeData['projects'] } = $props();
+</script>
+
+{#if projects.length > 0}
+  <section id="projects" use:animateOnScroll>
+    <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {#each projects as project}
+        <div class="border p-6 rounded-lg">
+          <h3 class="text-2xl font-bold">{project.name}</h3>
+          <p class="mt-2">{project.description}</p>
+          <a href={project.url} class="text-blue-500 hover:underline mt-4 inline-block">View Project</a>
+        </div>
+      {/each}
+    </div>
+  </section>
+{/if}
