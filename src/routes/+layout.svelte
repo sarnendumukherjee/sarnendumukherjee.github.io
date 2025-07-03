@@ -1,7 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	import { theme } from '$lib/stores/theme';
-	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+	import { headerHeight } from '$lib/stores/headerHeight';
+	import NavigationHeader from '$lib/components/NavigationHeader.svelte';
 
 	let { children } = $props();
 
@@ -12,9 +13,7 @@
 	});
 </script>
 
-<div class="relative min-h-screen">
-	<div class="absolute top-4 right-4 z-10">
-		<ThemeToggle />
-	</div>
+<div class="relative min-h-screen" style="padding-top: {$headerHeight}px;">
+	<NavigationHeader />
 	{@render children()}
 </div>
