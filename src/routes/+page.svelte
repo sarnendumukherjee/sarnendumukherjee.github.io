@@ -16,9 +16,9 @@
 
   <main class="space-y-24">
     <AboutSection aboutText={data.about} />
+    <SkillsSection skills={data.skills} />
     <ExperienceSection experience={data.experience} />
     <EducationSection education={data.education} />
-    <SkillsSection skills={data.skills} />
     {#if data.projects.length > 0}
       <ProjectsSection projects={data.projects} />
     {/if}
