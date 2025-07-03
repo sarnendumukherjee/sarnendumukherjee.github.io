@@ -1,0 +1,85 @@
+{
+  "name": "Sarnendu Mukherjee",
+  "title": "Principal Front End Engineer",
+  "about": "10+ years experienced Senior Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Front end technologies like JavaScript, Typescript, OOJS, ECMAScript 6, Angular, React, Redux, GraphQL, Apollo, Storybook, Open API, Material UI, Tailwind, CSS in JS, Next, SSR, NX, Yarn, Babel, Webpack, HTML5, CSS3, Bootstrap, RWD and Back end technologies like Node.js, NestJS MERN Stack, Java, Hibernate, Spring Framework, Mongo, MySql, PostgreSQL. Strong engineering professional with a Bachelor of Technology (B.Tech.) focused in Information Technology from West Bengal University of Technology.",
+  "experience": [
+    {
+      "title": "Principal Frontend Engineer",
+      "company": "Mobiquity, Amsterdam",
+      "period": "2020-12 - Current",
+      "description": "Working on multiple products for clients which revolves around the Banking application. Technologies used are Typescript, NextJS, React, Redux, Tailwind, Material UI, Angular, RxJS, NgRx, NX, Storybook, Jest. Responsibilities: Converting user stories and figma designs to working code, writing test cases and improving existing code quality and scale up the project."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Kramp Hub, Utrecht",
+      "period": "2020-04 - 2020-11",
+      "description": "Working on multiple products which revolve around the Agricultural E-Commerce platform. Technologies used are Typescript, React, Redux, Apollo, GraphQL, Next, SSR, NX, Storybook, Jest."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "OTHERA, Eindhoven",
+      "period": "2019-02 - 2020-01",
+      "description": "Worked as a Frontend Developer on multiple products, like Dynamic form builder, Loan aggregation platform. Dynamic form builder was a project which could generate at runtime, a multi step interactive form based on the configuration defined in a JSON. Loan aggregator platform is a platform which had a lot of data visualization along with a dynamic interactive dashboard."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Accolite, Bangalore, Karnataka",
+      "period": "2016-07 - 2019-01",
+      "description": "Worked as a Full stack developer with client Morgan Stanley on various projects. Worked on a project where the whole project is fully configuration driven and all the pages are dynamically generated using configuration."
+    },
+    {
+      "title": "Consultant",
+      "company": "Capgemini, Pune, Maharashtra",
+      "period": "2012-12 - 2016-06",
+      "description": "Worked as a full stack developer on Capgemini IP (iCompass) and with multiple clients like Catline Group Limited, Societe Generale, Barclays on Various projects."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology: Information Technology",
+      "institution": "West Bengal University Of Technology - Suri, Birbhum",
+      "period": "2008-07 - 2012-06"
+    },
+    {
+      "degree": "High School Diploma",
+      "institution": "Dhadka N.C.L. Vidyamandir - Asansol",
+      "period": "2006-04 - 2008-03"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "technologies": ["JavaScript (ES6+)", "TypeScript", "Java", "HTML5", "CSS3"]
+    },
+    {
+      "category": "Front-End Frameworks & Libraries",
+      "technologies": ["React", "Next.js", "Angular (2+)", "Redux", "NgRx", "RxJS", "GraphQL", "Apollo Client"]
+    },
+    {
+      "category": "Back-End & Databases",
+      "technologies": ["Node.js", "NestJS", "Express", "Spring Framework", "Hibernate", "MongoDB", "PostgreSQL", "MySQL"]
+    },
+    {
+      "category": "Styling & UI",
+      "technologies": ["Tailwind CSS", "Material Design", "Bootstrap", "SCSS", "CSS-in-JS", "Figma", "Storybook"]
+    },
+    {
+      "category": "Testing",
+      "technologies": ["Jest", "React Testing Library", "Cypress", "Playwright", "Jasmine", "Karma"]
+    },
+    {
+      "category": "Build, DevOps & Tooling",
+      "technologies": ["Vite", "Webpack", "Docker", "CircleCI", "GitHub Actions", "NPM", "Yarn", "NX", "Git"]
+    },
+    {
+      "category": "Methodologies & Practices",
+      "technologies": ["Agile", "CI/CD", "TDD", "BDD", "Responsive Web Design", "OWASP Security"]
+    }
+  ],
+  "projects": [],
+  "contact": {
+    "email": "sarnendu.mukherjee@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sarnendumukherjee/",
+    "github": "https://github.com/sarnendumukherjee"
+  }
+}
