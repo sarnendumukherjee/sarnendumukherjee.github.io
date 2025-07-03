@@ -3,8 +3,8 @@
 </script>
 
 <section id="about">
-  <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">About Me</h2>
-  <p class="text-lg">
+  <h2 class="text-3xl font-semibold border-b-2 border-gray-200 dark:border-gray-700 pb-2 mb-6">About Me</h2>
+  <p class="text-lg dark:text-gray-300">
     {aboutText}
   </p>
 </section>
