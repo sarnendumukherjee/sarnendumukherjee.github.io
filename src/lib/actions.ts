@@ -5,12 +5,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 import type { Action } from 'svelte/action';
 
-export const fadeIn: Action<HTMLElement> = (node) => {
-  const animation = gsap.from(node, {
+interface AnimateOnScrollOptions {
+  y?: number;
+  duration?: number;
+  stagger?: number;
+}
+
+export const animateOnScroll: Action<HTMLElement, AnimateOnScrollOptions> = (node, options) => {
+  const { y = 50, duration = 1, stagger } = options || {};
+
+  const targets = stagger ? Array.from(node.children) : node;
+
+  const animation = gsap.from(targets, {
     autoAlpha: 0,
-    y: 50,
-    duration: 1,
+    y,
+    duration,
     ease: 'power3.out',
+    stagger: stagger || 0,
     scrollTrigger: {
       trigger: node,
       start: 'top 80%',
@@ -23,4 +34,4 @@ export const fadeIn: Action<HTMLElement> = (node) => {
       animation.kill();
     }
   };
-}
+};

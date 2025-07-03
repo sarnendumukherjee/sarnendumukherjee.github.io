@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { ResumeData } from '../app';
   import data from '$lib/data.json';
-  import { fadeIn } from '$lib/actions.js';
+  import { animateOnScroll } from '$lib/actions.js';
 
   const typedData: ResumeData = data;
 </script>
@@ -20,9 +20,9 @@
       </p>
     </section>
 
-    <section id="experience"  use:fadeIn>
+    <section id="experience">
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Experience</h2>
-      <div class="space-y-8">
+      <div class="space-y-8" use:animateOnScroll={{ stagger: 0.1 }}>
         {#each data.experience as job}
           <div>
             <h3 class="text-2xl font-bold">{job.title}</h3>
@@ -33,9 +33,9 @@
       </div>
     </section>
 
-    <section id="education"  use:fadeIn>
+    <section id="education">
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Education</h2>
-      <div class="space-y-8">
+      <div class="space-y-8" use:animateOnScroll={{ stagger: 0.1 }}>
         {#each data.education as edu}
           <div>
             <h3 class="text-2xl font-bold">{edu.degree}</h3>
@@ -45,13 +45,13 @@
       </div>
     </section>
 
-    <section id="skills" use:fadeIn>
+    <section id="skills">
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Skills</h2>
       <div class="space-y-8">
         {#each data.skills as skillGroup}
           <div>
             <h3 class="text-2xl font-semibold mb-4">{skillGroup.category}</h3>
-            <div class="flex flex-wrap gap-4">
+            <div class="flex flex-wrap gap-4" use:animateOnScroll={{ stagger: 0.05 }}>
               {#each skillGroup.technologies as skill}
                 <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-semibold">{skill}</span>
               {/each}
@@ -62,7 +62,7 @@
     </section>
 
     {#if data.projects.length > 0}
-      <section id="projects" use:fadeIn>
+      <section id="projects" use:animateOnScroll>
         <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           {#each typedData.projects as project}
@@ -76,7 +76,7 @@
       </section>
     {/if}
 
-    <section id="contact" use:fadeIn>
+    <section id="contact" use:animateOnScroll>
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Contact</h2>
       <div class="text-center">
         <p class="text-lg">Feel free to reach out!</p>

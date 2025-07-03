@@ -123,3 +123,13 @@ For your scroll-based animations, I'd strongly lean towards **GSAP with ScrollTr
 This project is totally achievable and a fantastic way to showcase your SvelteKit skills. The key will be leveraging SvelteKit's static adapter for GitHub Pages and then picking the right tools (especially for animations) to achieve that clean, scroll-animated aesthetic you're after.
 
 What are your initial thoughts on this? Does anything immediately jump out as exciting or concerning? Let's keep digging!
+
+## Enhancement Ideas
+
+*   **Enhanced Scroll-Based Animations:**
+    *   Staggered Animations: Individual items within a list (experience, education, skills) animate in with a slight delay.
+    *   Subtle Parallax Effects: Add subtle parallax to background elements for depth.
+*   **Interactive "Dark Mode" Toggle:** Implement a dark mode switch to demonstrate theme handling.
+*   **Custom Fonts:** Integrate a custom font for improved visual appeal.
+*   **Project Card Enhancements:** Make project cards interactive on hover (lift, shadow, reveal details).
+*   **Skill Visualization:** Represent skills visually (e.g., skill cloud, animated progress bars).
