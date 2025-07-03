@@ -11,7 +11,7 @@ interface AnimateOnScrollOptions {
   stagger?: number;
 }
 
-export const animateOnScroll: Action<HTMLElement, AnimateOnScrollOptions> = (node, options) => {
+export const animateOnScroll: Action<HTMLElement, AnimateOnScrollOptions | undefined> = (node, options) => {
   const { y = 50, duration = 1, stagger } = options || {};
 
   const targets = stagger ? Array.from(node.children) : node;
