@@ -1,5 +1,9 @@
 <script lang="ts">
+  import type { ResumeData } from '../app';
   import data from '$lib/data.json';
+  import { fadeIn } from '$lib/actions.js';
+
+  const typedData: ResumeData = data;
 </script>
 
 <div class="container mx-auto p-8">
@@ -16,7 +20,7 @@
       </p>
     </section>
 
-    <section id="experience">
+    <section id="experience"  use:fadeIn>
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Experience</h2>
       <div class="space-y-8">
         {#each data.experience as job}
@@ -29,7 +33,7 @@
       </div>
     </section>
 
-    <section id="education">
+    <section id="education"  use:fadeIn>
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Education</h2>
       <div class="space-y-8">
         {#each data.education as edu}
@@ -41,7 +45,7 @@
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" use:fadeIn>
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Skills</h2>
       <div class="space-y-8">
         {#each data.skills as skillGroup}
@@ -58,10 +62,10 @@
     </section>
 
     {#if data.projects.length > 0}
-      <section id="projects">
+      <section id="projects" use:fadeIn>
         <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {#each data.projects as project}
+          {#each typedData.projects as project}
             <div class="border p-6 rounded-lg">
               <h3 class="text-2xl font-bold">{project.name}</h3>
               <p class="mt-2">{project.description}</p>
@@ -72,7 +76,7 @@
       </section>
     {/if}
 
-    <section id="contact">
+    <section id="contact" use:fadeIn>
       <h2 class="text-3xl font-semibold border-b-2 border-gray-200 pb-2 mb-6">Contact</h2>
       <div class="text-center">
         <p class="text-lg">Feel free to reach out!</p>
