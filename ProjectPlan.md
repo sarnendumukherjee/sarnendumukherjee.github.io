@@ -130,6 +130,6 @@ What are your initial thoughts on this? Does anything immediately jump out as ex
     *   Staggered Animations: Individual items within a list (experience, education, skills) animate in with a slight delay. (Completed)
     *   Subtle Parallax Effects: Add subtle parallax to background elements for depth.
 *   **Interactive "Dark Mode" Toggle:** Implement a dark mode switch to demonstrate theme handling. (Completed)
-*   **Custom Fonts:** Integrate a custom font for improved visual appeal.
+*   **Custom Fonts:** Integrate a custom font for improved visual appeal. (Completed)
 *   **Project Card Enhancements:** Make project cards interactive on hover (lift, shadow, reveal details).
 *   **Skill Visualization:** Represent skills visually (e.g., skill cloud, animated progress bars).
