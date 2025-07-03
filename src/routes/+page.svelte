@@ -8,7 +8,7 @@
   import ContactSection from '$lib/components/ContactSection.svelte';
 </script>
 
-<div class="container mx-auto p-8">
+<div class="container mx-auto p-8 max-w-4xl">
   <header class="text-center mb-16">
     <h1 class="text-5xl font-bold dark:text-gray-100">{data.name}</h1>
     <p class="text-xl text-gray-600 dark:text-gray-400 mt-2">{data.title}</p>
