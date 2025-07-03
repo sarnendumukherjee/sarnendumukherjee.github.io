@@ -49,31 +49,87 @@
   "skills": [
     {
       "category": "Languages",
-      "technologies": ["JavaScript (ES6+)", "TypeScript", "Java", "HTML5", "CSS3"]
+      "technologies": [
+        { "name": "JavaScript (ES6+)", "proficiency": 90 },
+        { "name": "TypeScript", "proficiency": 85 },
+        { "name": "Java", "proficiency": 70 },
+        { "name": "HTML5", "proficiency": 95 },
+        { "name": "CSS3", "proficiency": 90 }
+      ]
     },
     {
       "category": "Front-End Frameworks & Libraries",
-      "technologies": ["React", "Next.js", "Angular (2+)", "Redux", "NgRx", "RxJS", "GraphQL", "Apollo Client"]
+      "technologies": [
+        { "name": "React", "proficiency": 90 },
+        { "name": "Next.js", "proficiency": 85 },
+        { "name": "Angular (2+)", "proficiency": 80 },
+        { "name": "Redux", "proficiency": 85 },
+        { "name": "NgRx", "proficiency": 75 },
+        { "name": "RxJS", "proficiency": 70 },
+        { "name": "GraphQL", "proficiency": 80 },
+        { "name": "Apollo Client", "proficiency": 75 }
+      ]
     },
     {
       "category": "Back-End & Databases",
-      "technologies": ["Node.js", "NestJS", "Express", "Spring Framework", "Hibernate", "MongoDB", "PostgreSQL", "MySQL"]
+      "technologies": [
+        { "name": "Node.js", "proficiency": 80 },
+        { "name": "NestJS", "proficiency": 75 },
+        { "name": "Express", "proficiency": 80 },
+        { "name": "Spring Framework", "proficiency": 65 },
+        { "name": "Hibernate", "proficiency": 60 },
+        { "name": "MongoDB", "proficiency": 70 },
+        { "name": "PostgreSQL", "proficiency": 75 },
+        { "name": "MySQL", "proficiency": 70 }
+      ]
     },
     {
       "category": "Styling & UI",
-      "technologies": ["Tailwind CSS", "Material Design", "Bootstrap", "SCSS", "CSS-in-JS", "Figma", "Storybook"]
+      "technologies": [
+        { "name": "Tailwind CSS", "proficiency": 90 },
+        { "name": "Material Design", "proficiency": 80 },
+        { "name": "Bootstrap", "proficiency": 85 },
+        { "name": "SCSS", "proficiency": 80 },
+        { "name": "CSS-in-JS", "proficiency": 75 },
+        { "name": "Figma", "proficiency": 60 },
+        { "name": "Storybook", "proficiency": 85 }
+      ]
     },
     {
       "category": "Testing",
-      "technologies": ["Jest", "React Testing Library", "Cypress", "Playwright", "Jasmine", "Karma"]
+      "technologies": [
+        { "name": "Jest", "proficiency": 85 },
+        { "name": "React Testing Library", "proficiency": 80 },
+        { "name": "Cypress", "proficiency": 75 },
+        { "name": "Playwright", "proficiency": 70 },
+        { "name": "Jasmine", "proficiency": 65 },
+        { "name": "Karma", "proficiency": 60 }
+      ]
     },
     {
       "category": "Build, DevOps & Tooling",
-      "technologies": ["Vite", "Webpack", "Docker", "CircleCI", "GitHub Actions", "NPM", "Yarn", "NX", "Git"]
+      "technologies": [
+        { "name": "Vite", "proficiency": 80 },
+        { "name": "Webpack", "proficiency": 75 },
+        { "name": "Docker", "proficiency": 70 },
+        { "name": "CircleCI", "proficiency": 65 },
+        { "name": "GitHub Actions", "proficiency": 70 },
+        { "name": "NPM", "proficiency": 90 },
+        { "name": "Yarn", "proficiency": 85 },
+        { "name": "NX", "proficiency": 70 },
+        { "name": "Git", "proficiency": 90 }
+      ]
     },
     {
       "category": "Methodologies & Practices",
-      "technologies": ["Agile", "CI/CD", "TDD", "BDD", "Responsive Web Design", "OWASP Security"]
+      "technologies": [
+        { "name": "Agile", "proficiency": 90 },
+        { "name": "CI/CD", "proficiency": 80 },
+        { "name": "TDD", "proficiency": 75 },
+        { "name": "BDD", "proficiency": 70 },
+        { "name": "Responsive Web Design", "proficiency": 90 },
+        { "name": "OWASP Security", "proficiency": 70 }
+      ]
     }
   ],
   "projects": [],

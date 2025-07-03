@@ -21,9 +21,14 @@ declare global {
     url: string;
   }
 
+  interface technology {
+    name: string;
+    proficiency: number;
+  }
+
   interface SkillGroup {
     category: string;
-    technologies: string[];
+    technologies: technology[];
   }
 
   interface Education {
