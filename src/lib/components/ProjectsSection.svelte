@@ -7,7 +7,7 @@
 
 {#if projects.length > 0}
   <section id="projects" use:animateOnScroll>
-    <h2 class="text-3xl font-semibold border-b-2 border-gray-200 dark:border-gray-700 pb-2 mb-6">Projects</h2>
+    <h2 class="section-heading hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200">Projects</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {#each projects as project}
         <div class="border border-gray-200 dark:border-gray-700 p-6 rounded-lg bg-white dark:bg-gray-800">

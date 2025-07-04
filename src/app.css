@@ -12,3 +12,9 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+@layer components {
+  .section-heading {
+    @apply text-3xl font-semibold border-b-2 border-gray-200 dark:border-gray-700 pb-2 mb-6;
+  }
+}

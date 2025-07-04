@@ -21,7 +21,7 @@
 </script>
 
 <section id="contact" use:animateOnScroll>
-  <h2 class="text-3xl font-semibold border-b-2 border-gray-200 dark:border-gray-700 pb-2 mb-6">Contact</h2>
+  <h2 class="section-heading hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200">Contact</h2>
   <div class="text-center">
     <p class="text-lg dark:text-gray-300">Feel free to reach out!</p>
     <div class="flex items-center justify-center gap-2">

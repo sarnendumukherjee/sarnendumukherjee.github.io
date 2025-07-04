@@ -6,7 +6,7 @@
 </script>
 
 <section id="education">
-  <h2 class="text-3xl font-semibold border-b-2 border-gray-200 dark:border-gray-700 pb-2 mb-6">Education</h2>
+  <h2 class="section-heading hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200">Education</h2>
   <div class="space-y-8" use:animateOnScroll={{ stagger: 0.1 }}>
     {#each education as edu}
       <div>
