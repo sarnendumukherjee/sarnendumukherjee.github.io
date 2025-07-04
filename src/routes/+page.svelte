@@ -6,6 +6,7 @@
   import SkillsSection from '$lib/components/SkillsSection.svelte';
   import ProjectsSection from '$lib/components/ProjectsSection.svelte';
   import ContactSection from '$lib/components/ContactSection.svelte';
+  import SectionDivider from '$lib/components/SectionDivider.svelte';
 </script>
 
 <div class="container mx-auto p-8 max-w-4xl">
@@ -16,12 +17,17 @@
 
   <main class="space-y-24">
     <AboutSection aboutText={data.about} />
+    <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <SkillsSection skills={data.skills} />
+    <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <ExperienceSection experience={data.experience} />
+    <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <EducationSection education={data.education} />
     {#if data.projects.length > 0}
+      <SectionDivider class="text-gray-400 dark:text-gray-600" />
       <ProjectsSection projects={data.projects} />
     {/if}
+    <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <ContactSection contact={data.contact} />
   </main>
 </div>
