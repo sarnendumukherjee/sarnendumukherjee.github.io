@@ -128,7 +128,7 @@ What are your initial thoughts on this? Does anything immediately jump out as ex
 
 *   **Enhanced Scroll-Based Animations:**
     *   Staggered Animations: Individual items within a list (experience, education, skills) animate in with a slight delay. (Completed)
-    *   Subtle Parallax Effects: Add subtle parallax to background elements for depth.
+    *   Subtle Parallax Effects: Add subtle parallax to background elements for depth. (Skipped)
 *   **Interactive "Dark Mode" Toggle:** Implement a dark mode switch to demonstrate theme handling. (Completed)
 *   **Custom Fonts:** Integrate a custom font for improved visual appeal. (Completed)
 *   **Project Card Enhancements:** Make project cards interactive on hover (lift, shadow, reveal details). (Skipped)
@@ -139,7 +139,7 @@ What are your initial thoughts on this? Does anything immediately jump out as ex
 * Interactive Hero Section Background:
        * Subtle Particle/Blob Animation: Instead of a static background, we could implement a dynamic, low-CPU particle effect or
          organic blob animation in the hero section. This adds a modern, tech-savvy feel and demonstrates advanced animation
-         capabilities. We could use a library like particles.js or even custom GSAP animations for this.
+         capabilities. We could use a library like particles.js or even custom GSAP animations for this. (Completed)
        * Dynamic Gradient: A background gradient that subtly shifts colors or direction over time, creating a calming yet dynamic
          visual.
 
@@ -154,7 +154,3 @@ What are your initial thoughts on this? Does anything immediately jump out as ex
        * A dynamic and visually appealing section that highlights technologies you're currently exploring, new frameworks you're
          learning, or personal side projects you're actively working on. This demonstrates initiative, curiosity, and a passion for
          continuous learning. We could use icons and short descriptions, perhaps with a subtle animation on entry.
-
-* Animated Section Dividers/Transitions:
-       * Instead of just a simple line, we could have subtle, animated SVG dividers between sections that react to scroll, or more
-         elaborate transitions when scrolling from one section to another.

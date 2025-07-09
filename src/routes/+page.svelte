@@ -7,12 +7,14 @@
   import ProjectsSection from '$lib/components/ProjectsSection.svelte';
   import ContactSection from '$lib/components/ContactSection.svelte';
   import SectionDivider from '$lib/components/SectionDivider.svelte';
+  import HeroBackground from '$lib/components/HeroBackground.svelte';
 </script>
 
 <div class="container mx-auto p-8 max-w-4xl">
-  <header class="text-center mb-16">
-    <h1 class="text-5xl font-bold dark:text-gray-100">{data.name}</h1>
-    <p class="text-xl text-gray-600 dark:text-gray-400 mt-2">{data.title}</p>
+  <header class="text-center mb-16 relative">
+    <HeroBackground />
+    <h1 class="text-5xl font-bold dark:text-gray-100 z-10 relative">{data.name}</h1>
+    <p class="text-xl text-gray-600 dark:text-gray-400 mt-2 z-10 relative">{data.title}</p>
   </header>
 
   <main class="space-y-24">
