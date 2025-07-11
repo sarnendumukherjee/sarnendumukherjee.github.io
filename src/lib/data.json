@@ -74,9 +74,9 @@
       "category": "Back-End & Databases",
       "technologies": [
         { "name": "Node.js", "proficiency": 80 },
-        { "name": "NestJS", "proficiency": 75 },
-        { "name": "Express", "proficiency": 80 },
-        { "name": "Spring Framework", "proficiency": 65 },
+        { "name": "NestJS", "proficiency": 80 },
+        { "name": "Express", "proficiency": 75 },
+        { "name": "Spring Framework", "proficiency": 60 },
         { "name": "Hibernate", "proficiency": 60 },
         { "name": "MongoDB", "proficiency": 70 },
         { "name": "PostgreSQL", "proficiency": 75 },
@@ -87,8 +87,8 @@
       "category": "Styling & UI",
       "technologies": [
         { "name": "Tailwind CSS", "proficiency": 90 },
-        { "name": "Material Design", "proficiency": 80 },
-        { "name": "Bootstrap", "proficiency": 85 },
+        { "name": "Material Design", "proficiency": 85 },
+        { "name": "Bootstrap", "proficiency": 80 },
         { "name": "SCSS", "proficiency": 80 },
         { "name": "CSS-in-JS", "proficiency": 75 },
         { "name": "Figma", "proficiency": 60 },
@@ -98,12 +98,13 @@
     {
       "category": "Testing",
       "technologies": [
-        { "name": "Jest", "proficiency": 85 },
+        { "name": "Jest", "proficiency": 90 },
+        { "name": "Vitest", "proficiency": 85 },
         { "name": "React Testing Library", "proficiency": 80 },
         { "name": "Cypress", "proficiency": 75 },
         { "name": "Playwright", "proficiency": 70 },
-        { "name": "Jasmine", "proficiency": 65 },
-        { "name": "Karma", "proficiency": 60 }
+        { "name": "Jasmine", "proficiency": 70 },
+        { "name": "Karma", "proficiency": 70 }
       ]
     },
     {
@@ -144,7 +145,7 @@
       "technologies": [
         { "name": "Agile", "proficiency": 90 },
         { "name": "CI/CD", "proficiency": 80 },
-        { "name": "TDD", "proficiency": 75 },
+        { "name": "TDD", "proficiency": 90 },
         { "name": "BDD", "proficiency": 70 },
         { "name": "Responsive Web Design", "proficiency": 90 },
         { "name": "OWASP Security", "proficiency": 70 }
