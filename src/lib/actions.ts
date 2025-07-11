@@ -24,7 +24,8 @@ export const animateOnScroll: Action<HTMLElement, AnimateOnScrollOptions | undef
     stagger: stagger || 0,
     scrollTrigger: {
       trigger: node,
-      start: 'top 80%',
+      start: 'top 90%',
+      end: 'bottom top',
       toggleActions: 'play none none none',
     }
   });
