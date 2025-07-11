@@ -111,13 +111,32 @@
       "technologies": [
         { "name": "Vite", "proficiency": 80 },
         { "name": "Webpack", "proficiency": 75 },
-        { "name": "Docker", "proficiency": 70 },
-        { "name": "CircleCI", "proficiency": 65 },
-        { "name": "GitHub Actions", "proficiency": 70 },
         { "name": "NPM", "proficiency": 90 },
         { "name": "Yarn", "proficiency": 85 },
         { "name": "NX", "proficiency": 70 },
         { "name": "Git", "proficiency": 90 }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "technologies": [
+        { "name": "Docker", "proficiency": 75 },
+        { "name": "Kubernetes", "proficiency": 0 },
+        { "name": "AWS", "proficiency": 60 },
+        { "name": "Azure", "proficiency": 70 },
+        { "name": "Google Cloud Platform", "proficiency": 60 },
+        { "name": "Terraform", "proficiency": 0 },
+        { "name": "Serverless", "proficiency": 0 }
+      ]
+    },
+    {
+      "category": "Artificial Intelligence & Machine Learning",
+      "technologies": [
+        { "name": "Python (for ML)", "proficiency": 0 },
+        { "name": "TensorFlow", "proficiency": 0 },
+        { "name": "PyTorch", "proficiency": 0 },
+        { "name": "Generative AI Concepts", "proficiency": 75 },
+        { "name": "Prompt Engineering", "proficiency": 85 }
       ]
     },
     {
@@ -132,6 +151,7 @@
       ]
     }
   ],
+  "currentlyLearning": ["AWS","Gen AI"],
   "projects": [],
   "contact": {
     "email": "sarnendu.mukherjee@gmail.com",

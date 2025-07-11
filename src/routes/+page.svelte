@@ -4,6 +4,7 @@
   import ExperienceSection from '$lib/components/ExperienceSection.svelte';
   import EducationSection from '$lib/components/EducationSection.svelte';
   import SkillsSection from '$lib/components/SkillsSection.svelte';
+  import CurrentlyLearningSection from '$lib/components/CurrentlyLearningSection.svelte';
   import ProjectsSection from '$lib/components/ProjectsSection.svelte';
   import ContactSection from '$lib/components/ContactSection.svelte';
   import SectionDivider from '$lib/components/SectionDivider.svelte';
@@ -21,6 +22,8 @@
     <AboutSection aboutText={data.about} />
     <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <SkillsSection skills={data.skills} />
+    <SectionDivider class="text-gray-400 dark:text-gray-600" />
+    <CurrentlyLearningSection currentlyLearning={data.currentlyLearning} />
     <SectionDivider class="text-gray-400 dark:text-gray-600" />
     <ExperienceSection experience={data.experience} />
     <SectionDivider class="text-gray-400 dark:text-gray-600" />
