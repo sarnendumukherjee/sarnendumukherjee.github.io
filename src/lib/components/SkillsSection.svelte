@@ -13,7 +13,7 @@
       {#if filteredTechnologies.length > 0}
         <div>
           <h3 class="text-2xl font-semibold mb-4 dark:text-gray-200">{skillGroup.category}</h3>
-          <div class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {#each filteredTechnologies as technology}
               <SkillProgressBar skillName={technology.name} proficiency={technology.proficiency} />
             {/each}
